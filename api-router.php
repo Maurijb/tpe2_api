@@ -13,5 +13,4 @@ $router->addRoute('pedidos', 'POST', 'OrderApiController', 'insertOrder');
 $router->addRoute('pedidos/:ID', 'PUT', 'OrderApiController', 'updateOrder');
 
 
-
 $router->route($_GET["resource"], $_SERVER['REQUEST_METHOD']);
